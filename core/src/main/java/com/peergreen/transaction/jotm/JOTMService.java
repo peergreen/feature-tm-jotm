@@ -90,7 +90,7 @@ public class JOTMService {
         // Initialize JOTM
         RmiConfiguration rmiConfiguration = new RmiLocalConfiguration();
         TransactionFactory transactionFactory = new TransactionFactoryImpl(rmiConfiguration);
-        this.current = new Current(transactionFactory);
+        this.current = new Current(transactionFactory, rmiConfiguration.isCorbaCompliant());
 
         // register JTA services
         transactionManagerServiceRegistration = bundleContext.registerService(TransactionManager.class, current, null);
