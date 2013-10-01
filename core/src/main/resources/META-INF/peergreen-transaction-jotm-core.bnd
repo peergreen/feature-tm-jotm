@@ -1,4 +1,0 @@
-# DynamicImport-Package org.omg.*
-
-Export-Package com.peergreen.transaction.jotm
-Import-Package javax.naming.spi,*
