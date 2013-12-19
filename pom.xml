@@ -22,7 +22,7 @@
   <packaging>pom</packaging>
   <groupId>com.peergreen.transaction</groupId>
   <artifactId>peergreen-transaction-jotm</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3-SNAPSHOT</version>
 
   <name>Peergreen Transaction Manager with JOTM</name>
 
@@ -40,7 +40,7 @@
     <connection>scm:git:https://forge.peergreen.com/git/git/feature/transaction-manager/transaction-manager-jotm.git</connection>
     <developerConnection>scm:git:https://forge.peergreen.com/git/git/feature/transaction-manager/transaction-manager-jotm.git</developerConnection>
     <url>https://forge.peergreen.com/git/summary/?r=feature/transaction-manager/transaction-manager-jotm.git</url>
-    <tag>PEERGREEN_TRANSACTION_JOTM_1_0_2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
